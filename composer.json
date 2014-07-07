@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "doctrine/orm": "*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bautec\\": "src/"
+        },
+        "psr-4": {
+           "Tests\\Bautec\\": "tests/Bautec/"
+        }
+    }
+}
